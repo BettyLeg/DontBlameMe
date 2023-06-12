@@ -78,6 +78,7 @@
   position:absolute;
   bottom:0;
   right:-5px;
+    font-size:15px;
 }
 .bt002bm-botones > input{display:none}
 .bt002bm-botones > label{

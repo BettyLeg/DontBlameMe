@@ -295,7 +295,7 @@
 }
 .bt002b-datos-modulo > div > span {
     font-family: 'Poppins';
-    font-size: 12px;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 600;
     color: var(--accent);
@@ -333,4 +333,13 @@
     height: 208px;
     padding-right: 10px;
     margin-right: 10px;
+}
+.bt002-blameMe.bt002-blameMe-day br {
+    display: none;
+}
+.bt002bmt-historia > br {
+    display: block!important;
+}
+.bt002b-datos-txt > br {
+    display: block!important;
 }

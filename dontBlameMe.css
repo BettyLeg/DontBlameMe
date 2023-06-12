@@ -186,6 +186,7 @@
     font-weight: 600;
     color: var(--background-1);
     max-width: 200px;
+    z-index:2;
 }
 
 .bt002b-nombre > b {
@@ -195,8 +196,10 @@
     text-shadow: 1px 1px var(--background-1),-1px 1px var(--background-1),1px -1px var(--background-1),-1px -1px var(--background-1);
     color: var(--accent);
     text-transform: uppercase;
+    z-index:2;
 }
 .bt002b-nombre {
+    overflow: hidden;
     background: var(--background-3);
     height: 150px;
     border-bottom: var(--border);
@@ -208,6 +211,15 @@
     border-radius: 10px 10px 0 0;
     flex-direction: column;
     line-height: 20px;
+    position: relative;
+}
+.bt002b-nombre > i {
+    position: absolute;
+    margin-left: -100px;
+    font-size: 138px;
+    z-index: 1;
+    color: var(--color);
+    opacity: .05;
 }
 .bt002b-datos > *:not(.bt002dato-q) {
     display: flex;
@@ -221,6 +233,9 @@
 }
 .bt002b-datos > .bt002dato-q {
     height: 80px;
+    overflow:hidden;
+    text-align:justify;
+    line-height:16px;
 }
 .bt002b-datos > * {
     font-family: 'General Sans';
@@ -231,7 +246,7 @@
     padding: 5px;
     font-size: 12px;
     color: var(--color);
-    font-weight: 600;
+    font-weight: 500;
 }
 .bt002b-datos {
     gap: 5px;

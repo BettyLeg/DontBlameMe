@@ -336,7 +336,7 @@
     margin-right: 10px;
 }
 .bt002-blameMe br {
-    display: none;
+    display: none!important;
 }
 .bt002bmt-historia > br {
     display: block!important;

@@ -202,7 +202,7 @@
 .bt002b-nombre {
     overflow: hidden;
     background: var(--background-3);
-    height: 150px;
+    height: 120px;
     border-bottom: var(--border);
     display: flex;
     align-items: center;
@@ -229,11 +229,19 @@
 }
 
 .bt002b-datos > * > i {
-    padding: 0 10px;
     color: var(--accent);
+    background: var(--background-3);
+    height: 100%;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;
+    border-right: var(--border);
 }
 .bt002b-datos > .bt002dato-q {
-    height: 70px;
+    height: 90px;
     overflow: hidden;
     text-align: justify;
     line-height: 14px;
@@ -242,18 +250,22 @@
 .bt002b-datos > * {
     font-family: 'General Sans';
     border: var(--border);
-    height: 35px;
+    gap: 10px;
+    height: 45px;
     border-radius: 5px;
     background: var(--background-1);
-    padding: 5px;
+    padding: 0 5px 0 0;
     font-size: 12px;
     color: var(--color);
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .bt002b-datos {
     gap: 5px;
     width: 275px;
-    height: 278px;
+    height: 315px;
     margin: 35px auto 0;
     display: flex;
     justify-content: flex-end;

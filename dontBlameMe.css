@@ -108,6 +108,7 @@
   color:var(--background-1);
   font-weight:800;
 }
+[id^="bt002bm-"]:checked + label i{color:var(--background-1)!important;}
 .bt002bm-backcont{
   width:325px;
   height:500px;
